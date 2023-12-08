@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>878715841820-i7toubgcc8ngbiqtkdst665enqj7a807.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.878715841820-i7toubgcc8ngbiqtkdst665enqj7a807</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>878715841820-dbe9nav0friba7i247nc40sv7ge2lqks.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAczZs5PU0mxcSky5qH4bX56Jw5ZNZSZdg</string>
+	<key>GCM_SENDER_ID</key>
+	<string>878715841820</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.skillboxfirebaseapp.RunnerTests</string>
+	<key>PROJECT_ID</key>
+	<string>skillboxfirebase-cee89</string>
+	<key>STORAGE_BUCKET</key>
+	<string>skillboxfirebase-cee89.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:878715841820:ios:6a1385bdd23e7e92dbded9</string>
+</dict>
+</plist>

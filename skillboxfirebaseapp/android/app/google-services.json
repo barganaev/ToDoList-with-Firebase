@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "878715841820",
+    "project_id": "skillboxfirebase-cee89",
+    "storage_bucket": "skillboxfirebase-cee89.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:878715841820:android:cea274bd33b70871dbded9",
+        "android_client_info": {
+          "package_name": "com.example.skillboxfirebaseapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "878715841820-dbe9nav0friba7i247nc40sv7ge2lqks.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.skillboxfirebaseapp",
+            "certificate_hash": "afb137afb463e204bf64af2a67e9c522bb926877"
+          }
+        },
+        {
+          "client_id": "878715841820-9293csamqf45lo4p5b615p9jgn7hr637.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBZhx6jBsQzVaP9eEBCWUErVa7QO1yIXE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "878715841820-9293csamqf45lo4p5b615p9jgn7hr637.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "878715841820-i7toubgcc8ngbiqtkdst665enqj7a807.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.skillboxfirebaseapp.RunnerTests"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
