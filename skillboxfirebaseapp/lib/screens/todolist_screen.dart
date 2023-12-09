@@ -22,8 +22,8 @@ class _TodoListScreenState extends State<TodoListScreen> {
     const CircularProgressIndicator();
   }
 
-  late List<bool> _isChosen;
-  late List prod;
+  List<bool> _isChosen = [];
+  List prod = [];
 
   @override
   void initState() {
@@ -95,10 +95,10 @@ class _TodoListScreenState extends State<TodoListScreen> {
           StreamBuilder(
             stream: FirebaseFirestore.instance.collection('store_collection').snapshots(),
             builder: (context, snapshot) {
-              List _products = snapshot.data!.docs;
+              // prod = snapshot.data!.docs;
               if (snapshot.hasData) {
-                // List _products = snapshot.data!.docs;
-                _isChosen = List<bool>.filled(_products.length, false);
+                prod = snapshot.data!.docs;
+                _isChosen = List<bool>.filled(prod.length, false);
                 return SingleChildScrollView(
                   child: Padding(
                     padding: const EdgeInsets.symmetric(
@@ -127,10 +127,9 @@ class _TodoListScreenState extends State<TodoListScreen> {
                               subtitle: Text('${snapshot.data?.docs[index]['color']}'),
                               value: _isChosen[index],
                                 onChanged: (newValue) {
-                                  setState(() {
                                     _isChosen[index] = newValue!;
                                     print(_isChosen[index]);
-                                  });
+                                  setState(() {});
                                 },
                           
                                 controlAffinity: ListTileControlAffinity.trailing,
